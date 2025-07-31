@@ -38,8 +38,8 @@ Blockhouse-Quant-Research-Assignment/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/saimjawed254/Blockhouse-Quant-Research-Assignment.git
-cd Blockhouse-Quant-Research-Assignment
+git clone https://github.com/saimjawed254/Blockhouse-Quant-Intern-Assignment.git
+cd Blockhouse-Quant-Intern-Assignment
 ```
 
 ### 2. Install Dependencies
