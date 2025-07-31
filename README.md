@@ -54,13 +54,26 @@ pip install pandas numpy matplotlib seaborn tqdm scikit-learn scipy os glob
 
 To bypass GitHub's 100MB upload limit, raw data files are zipped and analysis is done on one of the csvs from each ticker(2025-04-03 used here).
 
-Extract them like this:
+Extract them like this for Linux:
 
 ```bash
 unzip CRWV.zip -d CRWV/
 unzip FROG.zip -d FROG/
 unzip SOUN.zip -d SOUN/
 ```
+
+Extract them like this for Windows:
+
+```bash
+mkdir CRWV
+tar -xf CRWV.zip -C CRWV
+mkdir FROG
+tar -xf FROG.zip -C FROG
+mkdir SOUN
+tar -xf SOUN.zip -C SOUN
+```
+
+Or do it manually from the system files 
 
 After unzipping, you should have the following structure:
 
