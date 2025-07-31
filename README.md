@@ -88,12 +88,6 @@ After unzipping, you should have the following structure:
 
 ### 4. Run the Notebook
 
-Launch the Jupyter Notebook to run the complete analysis:
-
-```bash
-jupyter notebook complete_notebook.ipynb
-```
-
 Make sure the extracted data folders are accessible, as the notebook reads directly from them.
 
 ---
